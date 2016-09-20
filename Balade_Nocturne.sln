@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balade_Nocturne.CSharp", "Balade_Nocturne.CSharp.csproj", "{99C9E6E6-487E-39E3-60ED-C34602C8E29F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C9E6E6-487E-39E3-60ED-C34602C8E29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E6E6-487E-39E3-60ED-C34602C8E29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E6E6-487E-39E3-60ED-C34602C8E29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9E6E6-487E-39E3-60ED-C34602C8E29F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
