@@ -8,11 +8,6 @@ public class Player_Move : MonoBehaviour {
     [SerializeField]
     private float m_TurningSpeed;
 
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         //Déplacement droite & gauche

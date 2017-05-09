@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{5D94D988-376B-B252-06E2-D3A1F6152B2E}") = "Balade_Nocturne", "Assembly-CSharp.csproj", "{DFFCF18A-3854-6B61-9CAA-139EA9AA129F}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balade_Nocturne", "Balade_Nocturne.csproj", "{441DA8B3-700B-87BB-1F49-F730E1AD16CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DFFCF18A-3854-6B61-9CAA-139EA9AA129F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DFFCF18A-3854-6B61-9CAA-139EA9AA129F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DFFCF18A-3854-6B61-9CAA-139EA9AA129F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DFFCF18A-3854-6B61-9CAA-139EA9AA129F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441DA8B3-700B-87BB-1F49-F730E1AD16CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441DA8B3-700B-87BB-1F49-F730E1AD16CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441DA8B3-700B-87BB-1F49-F730E1AD16CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441DA8B3-700B-87BB-1F49-F730E1AD16CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

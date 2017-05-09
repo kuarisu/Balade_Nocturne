@@ -53,8 +53,6 @@ public class Player_LoopMove : MonoBehaviour {
                     m_LoopSpeed += m_Acceleration;
                 }
 
-                //rb.velocity = Mathf.Lerp(m_MaxLoopSpeed, Time.deltaTime * m_Acceleration);
-
                 rb.velocity = transform.forward.normalized * m_LoopSpeed;
                 yield return new WaitForEndOfFrame();
             }
@@ -64,8 +62,6 @@ public class Player_LoopMove : MonoBehaviour {
                 {
                     m_LoopSpeed -= m_Deseleraction;
                 }
-
-                //rb.velocity = Mathf.Lerp(m_MaxLoopSpeed, Time.deltaTime * m_Acceleration);
 
                 rb.velocity = transform.forward.normalized * m_LoopSpeed;
                 yield return new WaitForEndOfFrame();
