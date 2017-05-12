@@ -24,7 +24,6 @@ public class Camera_Move : MonoBehaviour {
     void Update()
     {
         state = GamePad.GetState(playerIndex);
-        Debug.Log(state.ThumbSticks.Right.X);
         //Si pas de mouvement de joystick alors il la camera attend et se reset smooth avec un coroutine (Quaternion.LookRotation)
         //Si ça bouge, alors on fait un petit lerp entre -90 et 90, check variable pour savoir si c'est négatif ou positif comme mouvement ? Smoother le lerp aussi. 
 
